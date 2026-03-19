@@ -1,16 +1,119 @@
-# React + Vite
+# 💱 Currency Converter Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Currency Converter Web Application** built using **React + Vite + Tailwind CSS**.
+This app provides real-time currency conversion using a live exchange rate API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🌍 Convert between multiple currencies
+* ⚡ Real-time exchange rates
+* 🎨 Clean and responsive UI (Tailwind CSS)
+* 🔄 Instant conversion on input change
+* 📱 Mobile-friendly design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **API:** Live Exchange Rate API
+* **Build Tool:** Vite
+
+---
+
+## 📂 Project Structure
+
+```
+CurrencyConverter/
+│
+├── src/
+│   ├── components/     # UI Components
+│   ├── App.jsx         # Main App
+│   ├── main.jsx        # Entry point
+│
+├── public/             # Static files
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/vaishnavichorat/real-time-currency-converter.git
+```
+
+2. Navigate to project folder
+
+```
+cd CurrencyConverter
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start development server
+
+```
+npm run dev
+```
+
+---
+
+## 🌐 API Integration
+
+This project uses a **live exchange rate API** to fetch real-time currency data.
+
+Example:
+
+* Base currency: USD
+* Converts to: INR, EUR, GBP, etc.
+
+---
+
+## 📸 Screenshots
+
+![App Screenshot](./src/assets/screenshot.png)
+
+---
+
+## 📌 Future Improvements
+
+* Add currency charts 📊
+* Save conversion history 💾
+* Dark mode 🌙
+* Add more currencies
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📧 Contact
+
+If you have any questions or suggestions, feel free to reach out.
+
+---
+
+## ⭐ Acknowledgements
+
+* React
+* Vite
+* Tailwind CSS
+* Exchange Rate API
+
+
